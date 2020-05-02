@@ -32,7 +32,7 @@ These are the things which we could change:
 &nbsp;
 
 These are the things which we could change:
-<br />1. The combined hardware parts ATmega4809 microcontroller + RN4870/71 module + Raspberry Pi can be simply replaced by ESP32 where it can take data input from weather click and upload it to AWS cloud. This could be on a little disadvantage as Raspberry pi(if we want to) can perform complex process wit the  data collected from the sensor. The main achievement through the replacement with ESP32 board is cost i.e. cost of ESP32 alone is 595INR and for ATmega4809 microcontroller is 1142INR, for Raspberry Pi 3B+ is 2714INR and RN4870/71 module is 431INR and combined price is 4287INR.
+<br />1. The combined hardware parts ATmega4809 microcontroller + RN4870/71 module + Raspberry Pi can be simply replaced by ESP32 where it can take data input from weather click and upload it to AWS cloud. This could be on a little disadvantage as Raspberry pi(if we want to) can perform complex process wit the  data collected from the sensor. The main achievement through the replacement with ESP32 board is cost i.e. cost of ESP32 alone is 595INR and for ATmega4809 microcontroller is 1142INR, for Raspberry Pi 3B+ is 2714INR and RN4870/71 module is 431INR and combined price is 4287INR. Also, many steps would be reduced of connecting pi, bluetooth module and microcontroller.
 <br />2. The combined hardware parts ATmega4809 microcontroller + RN4870/71 module could also be replaced by ESP32, in this case also price would be reduced by a significant factor.
 <br />3. Instead of using ATmega4809 microcontroller ESP32 could also be used, in this case we would surely reduce price.
 &nbsp;
