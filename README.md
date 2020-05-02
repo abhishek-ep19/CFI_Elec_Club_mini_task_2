@@ -20,4 +20,22 @@ These are the things which we could change:
 <br />The resources that helped me to find out a better solution are [https://www.instructables.com/id/Internet-Radio-Using-an-ESP32/](https://www.instructables.com/id/Internet-Radio-Using-an-ESP32/) & [https://www.youtube.com/watch?v=F28Znry0qcw](https://www.youtube.com/watch?v=F28Znry0qcw)
 &nbsp;
 
-### 2. 
+### [2. Connect BLE Weather Sensor to the Cloud](https://www.hackster.io/ble-weather-aws/connect-ble-weather-sensor-to-the-cloud-e79d9d)
+#### Ideation:
+| Hardware parts used   | Replacable By | Feasibility to replace | Advantages | Disadvantages |
+| :---:                 | :---:         | :---:                  | :---:      | :---:         |
+| ATmega4809 microcontroller + RN4870/71 module + Raspberry Pi | ESP32 | Very Feasible | Very Cheap | Raspberry Pi can further perform complex process |
+| ATmega4809 microcontroller + RN4870/71 module | ESP32 | Very Feasible | Very Cheap | -- |
+| ATmega4809 microcontroller | ESP32 | Very Feasible | Very Cheap | -- |
+| Weather Click | -- | Necessary to perform action | -- | -- |
+<br />
+&nbsp;
+
+These are the things which we could change:
+<br />1. The combined hardware parts ATmega4809 microcontroller + RN4870/71 module + Raspberry Pi can be simply replaced by ESP32 where it can take data input from weather click and upload it to AWS cloud. This could be on a little disadvantage as Raspberry pi(if we want to) can perform complex process wit the  data collected from the sensor. The main achievement through the replacement with ESP32 board is cost i.e. cost of ESP32 alone is 595INR and for ATmega4809 microcontroller is 1142INR, for Raspberry Pi 3B+ is 2714INR and RN4870/71 module is 431INR and combined price is 4287INR.
+<br />2. The combined hardware parts ATmega4809 microcontroller + RN4870/71 module could also be replaced by ESP32, in this case also price would be reduced by a significant factor.
+<br />3. Instead of using ATmega4809 microcontroller ESP32 could also be used, in this case we would surely reduce price.
+&nbsp;
+
+<br />The resource that helped me to find out a better solution are [https://hackernoon.com/cloud-home-automation-series-part-1-connect-esp32-to-aws-iot-with-arduino-code-lkhp36vx](https://hackernoon.com/cloud-home-automation-series-part-1-connect-esp32-to-aws-iot-with-arduino-code-lkhp36vx)
+&nbsp;
